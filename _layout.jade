@@ -1,0 +1,14 @@
+doctype
+html
+  head
+  body
+    if current.source !== 'index'
+      //- This will show 0 on blog.html
+      h1= (title) ? title : public._data[current.path[0]].title | "No Title"
+    else
+      h1 Homepage
+    //- Uncomment this & you will get the error
+    //- pre= JSON.stringify(public._data[current.path[0]].title)
+    pre= JSON.stringify(public._data)
+    pre= JSON.stringify(current)
+    != yield
