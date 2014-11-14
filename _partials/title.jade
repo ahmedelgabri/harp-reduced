@@ -1,0 +1,5 @@
+if current.source !== 'index'
+  //- This will show 0 on blog.html
+  h1= (title) ? title : public._data[current.path[0]].title | "No Title"
+else
+  h1 Homepage
