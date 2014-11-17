@@ -4,5 +4,8 @@
   },
   "blog": {
     "title": "Blog"
+  },
+  "index": {
+    "title": "My homepage"
   }
 }

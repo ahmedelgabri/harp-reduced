@@ -2,9 +2,8 @@ doctype
 html
   head
   body
-    include _partials/title.jade
-    //- Uncomment this & you will get the error
-    //- pre= JSON.stringify(public._data[current.path[0]].title)
+    h1= title
+    pre= JSON.stringify(title)
     pre= JSON.stringify(public._data)
     pre= JSON.stringify(current)
     != yield
