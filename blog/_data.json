@@ -1,4 +1,7 @@
 {
+  "index" : {
+    "title": "Blog"
+  },
   "post": {
     "title": "Post title"
   }

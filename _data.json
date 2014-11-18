@@ -2,7 +2,7 @@
   "about": {
     "title": "About"
   },
-  "blog": {
-    "title": "Blog"
+  "index": {
+    "title": "My homepage"
   }
 }

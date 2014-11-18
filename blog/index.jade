@@ -1,0 +1,4 @@
+ul
+  for post, slug in public.blog._data
+    if slug !== 'index'
+      li: a(href=slug)!= post.title
